@@ -1,8 +1,10 @@
 
 import streamlit as st
 import os
+import google-generativeai
 import google.generativeai as genai
 from PIL import Image
+
 
 genai.configure(api_key='AIzaSyAStFRUod6oIkU5EC9wKEYTJM31r-yDomU')
 
